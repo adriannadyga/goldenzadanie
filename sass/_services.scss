@@ -1,0 +1,13 @@
+.services {
+    .small-circle {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 4px solid $yellow;
+        background-color: $white;
+        .fas {
+            font-size: 40px;
+            color: $yellow;
+        }
+    }
+}

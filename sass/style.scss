@@ -2,6 +2,7 @@
 @import "normalize";
 @import "layout";
 @import "hero";
+@import "services";
 
 /* big hero */
 h1 {
@@ -26,6 +27,7 @@ h3 {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 0;
 }
 
 /* italic title */
@@ -33,6 +35,8 @@ h4 {
     color: $grey;
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    padding-bottom: 70px;
 }
 
 /* small title */
@@ -55,6 +59,7 @@ p {
     color: $grey;
     font-size: 14px;
     font-weight: 400;
+    padding: 0 50px;
 }
 
 a {
@@ -68,6 +73,10 @@ a {
 }
 
 button {
+    cursor: pointer;
+}
+
+.btn {
     width: 240px;
     height: 65px;
     background-color: $yellow;
@@ -78,5 +87,4 @@ button {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    cursor: pointer;
 }
