@@ -1,3 +1,82 @@
 @import "variables";
 @import "normalize";
 @import "layout";
+@import "hero";
+
+/* big hero */
+h1 {
+    color: $white;    
+    font-family: $fontM;
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* small hero */
+h2 {
+    color: $white;
+    font-size: 40px;
+    font-style: italic;    
+}
+
+/* big title */
+h3 {
+    color: $black;
+    font-family: $fontM;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* italic title */
+h4 {
+    color: $grey;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* small title */
+h5 {
+    color: $black;
+    font-family: $fontM;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* small italic */
+h6 {
+    color: $grey;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* lorem ipsum */
+p {
+    color: $grey;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {
+    color: $white;
+    font-family: $fontM;
+    font-size: 14px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+button {
+    width: 240px;
+    height: 65px;
+    background-color: $yellow;
+    border: none;
+    border-radius: 5px;
+    color: $white;
+    font-family: fontM;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
