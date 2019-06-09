@@ -41,6 +41,7 @@ h5 {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 700;
+  margin: 29px 0 0 0;
 }
 
 /* small italic */
@@ -48,6 +49,7 @@ h6 {
   color: #777777;
   font-size: 14px;
   font-style: italic;
+  margin: 0;
 }
 
 /* lorem ipsum */
@@ -55,7 +57,6 @@ p {
   color: #777777;
   font-size: 14px;
   font-weight: 400;
-  padding: 0 50px;
 }
 
 a {
@@ -83,6 +84,13 @@ button {
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.btn-round {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  border: 3px solid #222222;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -492,10 +500,8 @@ body {
   margin: 0;
 }
 
-body .services,
-body .portfolio {
-  margin: 120px 230px 120px 230px;
-  text-align: center;
+body section .container {
+  padding: 120px 230px 120px 230px;
 }
 
 body .hero {
@@ -529,6 +535,10 @@ body .hero .hero-text {
   transform: translate(-50%, -50%);
 }
 
+.services {
+  text-align: center;
+}
+
 .services .small-circle {
   width: 70px;
   height: 70px;
@@ -540,6 +550,62 @@ body .hero .hero-text {
 .services .small-circle .fas {
   font-size: 40px;
   color: #fed136;
+}
+
+.services p {
+  padding: 0 56px 0 56px;
+}
+
+.portfolio {
+  background-color: #F7F7F7;
+  text-align: center;
+}
+
+.portfolio .container .backgr-white {
+  width: 290px;
+  height: 396px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  background-color: #ffffff;
+}
+
+.about-us .container .center {
+  text-align: center;
+}
+
+.about-us .container img {
+  border: 7px solid #f1f1f1;
+  border-radius: 50%;
+}
+
+.about-us .container .right {
+  text-align: right;
+  padding-right: 40px;
+}
+
+.team {
+  text-align: center;
+  background: #F7F7F7;
+}
+
+.team img {
+  border-radius: 50%;
+  border: 7px solid #ffffff;
+  width: 300px;
+  height: 300px;
+}
+
+.team .btn-round {
+  background: #F7F7F7;
+}
+
+.team .text {
+  margin-top: 50px;
+}
+
+.team .text p {
+  color: #777777;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

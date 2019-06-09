@@ -1,0 +1,13 @@
+.portfolio {
+    background-color: $background;
+    text-align: center;
+    .container {
+        .backgr-white {
+            width: 290px;
+            height: 396px;
+            margin: 0 auto;
+            margin-bottom: 70px;
+            background-color: $white;
+        }
+    }
+}

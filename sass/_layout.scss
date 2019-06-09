@@ -29,9 +29,9 @@
 
 body {
     margin: 0;
-    .services,
-    .portfolio {
-        margin: 120px 230px 120px 230px;
-        text-align: center;    
+    section {
+        .container {
+            padding: 120px 230px 120px 230px;
+        }
     }
 }
