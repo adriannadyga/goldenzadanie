@@ -5,6 +5,8 @@ $black: #222222;
 $grey: #777777;
 $background: #F7F7F7;
 $round: #f1f1f1;
+$border: #cccccc;
+$form: #bbbbbb;
 
 /*fonts*/
 $fontM: 'Montserrat', sans-serif;
@@ -100,4 +102,7 @@ button {
     height: 41px;
     border-radius: 50%;
     border: 3px solid $black;
+    fab {
+        font-size: 19px;
+    }
 }

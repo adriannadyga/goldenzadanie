@@ -1,0 +1,14 @@
+footer {
+    .container {
+        padding-top: 20px;
+        .center {
+            text-align: center;
+        }
+        .btn-round {
+            background: $black;
+            .fab {
+                color: $white;
+            }
+        }
+    }
+}

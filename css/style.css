@@ -93,6 +93,10 @@ button {
   border: 3px solid #222222;
 }
 
+.btn-round fab {
+  font-size: 19px;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -576,6 +580,7 @@ body .hero .hero-text {
 .about-us .container img {
   border: 7px solid #f1f1f1;
   border-radius: 50%;
+  position: relative;
 }
 
 .about-us .container .right {
@@ -606,6 +611,55 @@ body .hero .hero-text {
 .team .text p {
   color: #777777;
   font-size: 16px;
+}
+
+.contact {
+  background-color: #222222;
+  background-image: url("https://github.com/adriannadyga/goldenzadanie/blob/master/images/Contact%20Us.png?raw=true");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: 100% -20%;
+}
+
+.contact h3 {
+  color: #ffffff;
+}
+
+.contact .form, .contact .form1, .contact .form2 {
+  width: 455px;
+  border: 1px solid #cccccc;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #bbbbbb;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+.contact .form1 {
+  height: 50px;
+  margin: 0 30px 30px 0;
+}
+
+.contact .form2 {
+  height: 210px;
+  padding-top: 20px;
+}
+
+footer .container {
+  padding-top: 20px;
+}
+
+footer .container .center {
+  text-align: center;
+}
+
+footer .container .btn-round {
+  background: #222222;
+}
+
+footer .container .btn-round .fab {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
